@@ -2,11 +2,11 @@ import os
 import shutil
 
 # Define the directory where the files are located
-source_dir = '/home/enigma/google-drive'
+source_dir = '/home/enigma/Downloads'
 
 # Define the directories for each file type
 directories = {
-    'img': ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'svg'],
+    'img': ['png', 'jpg', 'jpeg', 'gif', 'bmp', 'tiff', 'svg','webp'],
     'documents': ['xdoc', 'doc', 'docx', 'pdf', 'txt', 'odt', 'rtf'],
     'videos': ['mp4', 'avi', 'mkv', 'mov', 'wmv', 'flv'],
     'audio': ['mp3', 'wav', 'aac', 'flac', 'ogg', 'm4a'],
